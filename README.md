@@ -194,7 +194,8 @@ docker-compose build
 docker-compose up -d
 docker ps
 ```
-![alt text](./images/docker_desktop.png)
+![image](https://github.com/user-attachments/assets/0e6232ed-be2e-4415-b8a3-d2a35de4a013)
+
 Ensure services like **web, postgres, mongo, redis, rabbitmq, celery, celery-beat** are running.
 
 
@@ -211,13 +212,15 @@ Ensure services like **web, postgres, mongo, redis, rabbitmq, celery, celery-bea
      - Username: `postgres`
      - Password: `keywordio2022`
    - Click **Save**
-   ![alt text](./images/postgres2.png)
+   ![image](https://github.com/user-attachments/assets/552a1b9d-ada2-42c0-a505-fc0bcd49dd41)
+
 4. Create a Database:
    - Navigate to **Servers > Postgres > Databases**
    - Right-click **Databases** → **Create > Database**
    - Name the database: `<database_name_mentioned_in_dockercompose>`
    - Click **Save**
-![alt text](./images/postgres1.png)
+![image](https://github.com/user-attachments/assets/6ec60a3e-a444-464e-bf03-abff6da27bb6)
+
 
 ## Import JSON Files into MongoDB Using MongoDB Compass
 1. Open **MongoDB Compass**
@@ -234,8 +237,10 @@ Ensure services like **web, postgres, mongo, redis, rabbitmq, celery, celery-bea
    - Select your collection
    - Click **Import Data**
    - Choose your JSON file and click **Import**
-![alt text](./images/mongodb.png)
-![alt text](./images/mongodb%20setup.png)
+![image](https://github.com/user-attachments/assets/38351187-277e-4c2b-8c88-2f66e30f3afa)
+
+![image](https://github.com/user-attachments/assets/e490cbab-5311-4eaf-b5b1-7af24107085c)
+
 
 ---
 
