@@ -209,7 +209,7 @@ Ensure services like **web, postgres, mongo, redis, rabbitmq, celery, celery-bea
    - **Connection Tab**:
      - Host: `postgres`
      - Port: `5432`
-     - Username: `postgres`
+     - Username: `postgres` {your postgres service name}
      - Password: `keywordio2022`
    - Click **Save**
    ![image](https://github.com/user-attachments/assets/552a1b9d-ada2-42c0-a505-fc0bcd49dd41)
@@ -240,6 +240,12 @@ Ensure services like **web, postgres, mongo, redis, rabbitmq, celery, celery-bea
 ![image](https://github.com/user-attachments/assets/38351187-277e-4c2b-8c88-2f66e30f3afa)
 
 ![image](https://github.com/user-attachments/assets/e490cbab-5311-4eaf-b5b1-7af24107085c)
+
+### Add user in docker mongoDB container
+   - Docker desktop > mongodb container > exec
+      (Type ```mongosh``` in exec & start executing below commands)
+    ![image](https://github.com/user-attachments/assets/152e0d0f-ed4d-47d3-9dca-eadb9698d2ad)
+
 
 
 ---
