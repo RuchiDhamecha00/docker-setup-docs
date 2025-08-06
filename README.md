@@ -205,14 +205,17 @@ Ensure services like **web, postgres, mongo, redis, rabbitmq, celery, celery-bea
    - **Email**: `admin@admin.com`
    - **Password**: `admin`
 3. Add a New Server:
-   - **General Tab** → Name: `Postgres`
+   - **General Tab** → Name: `adhelp-postgres` (docker postgres service name)
    - **Connection Tab**:
      - Host: `postgres`
      - Port: `5432`
      - Username: `postgres` {your postgres service name}
      - Password: `keywordio2022`
    - Click **Save**
-   ![image](https://github.com/user-attachments/assets/552a1b9d-ada2-42c0-a505-fc0bcd49dd41)
+  <img width="1326" height="668" alt="Screenshot 2025-08-01 140232" src="https://github.com/user-attachments/assets/a23c5438-ba53-4f18-8501-97c3d03c2521" />
+
+  <img width="1365" height="730" alt="Screenshot 2025-08-01 140237" src="https://github.com/user-attachments/assets/be1e69b0-ffcb-4100-a211-ab05be506f57" />
+
 
 4. Create a Database:
    - Navigate to **Servers > Postgres > Databases**
