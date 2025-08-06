@@ -212,9 +212,10 @@ Ensure services like **web, postgres, mongo, redis, rabbitmq, celery, celery-bea
      - Username: `postgres` {your postgres service name}
      - Password: `keywordio2022`
    - Click **Save**
-  <img width="1326" height="668" alt="Screenshot 2025-08-01 140232" src="https://github.com/user-attachments/assets/a23c5438-ba53-4f18-8501-97c3d03c2521" />
 
   <img width="1365" height="730" alt="Screenshot 2025-08-01 140237" src="https://github.com/user-attachments/assets/be1e69b0-ffcb-4100-a211-ab05be506f57" />
+
+  <img width="1326" height="668" alt="Screenshot 2025-08-01 140232" src="https://github.com/user-attachments/assets/a23c5438-ba53-4f18-8501-97c3d03c2521" />
 
 
 4. Create a Database:
